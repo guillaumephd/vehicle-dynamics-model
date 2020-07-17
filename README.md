@@ -8,7 +8,7 @@ The model requires `python3`. To setup, run:
 
 ```bash
 # 1. Get the repo
-git clone abcd
+git clone https://github.com/guillaumephd/vehicle-dynamics-model
 
 # 2. Make the vehicle model available everywhere
 sudo cp vehiclesim.so `python -c "import site; print(site.getsitepackages()[-1])"`
